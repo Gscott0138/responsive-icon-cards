@@ -6,12 +6,28 @@
 
 html {
   -moz-text-size-adjust: 100%;
-  -mos-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+.card-img {
+  display: block;
+  width: 50px;
+}
+
+.cards {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.cards li {
+  display: inline-block;
 }
