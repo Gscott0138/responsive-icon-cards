@@ -30,7 +30,7 @@ html {
   list-style-type: none;
 }
 
-.cards li {
+.card {
   display: inline-block;
 }
 
@@ -62,7 +62,7 @@ html {
   }
 
   .card-body p {
-  margin-bottom: 1.3rem;
+    margin-bottom: 1.3rem;
   }
 
 }
@@ -72,6 +72,21 @@ html {
   html {
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  .card {
+    display: inline-block;
+    width: 32%;
+  }
+
+  .card-img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .card-body {
+    margin: 0;
+    width: 100%;
   }
 
 }
@@ -89,6 +104,24 @@ html {
 
   html {
     font-size: 130%;
+  }
+
+  .card-img {
+    display: inline-block;
+  }
+
+  .card-img img {
+    margin: 0;
+  }
+
+  .card-body {
+    display: inline-block;
+    width: 75%;
+    margin-left: 1rem;
+  }
+
+  .card-body p {
+    margin-bottom: 1.3rem;
   }
 
 }
