@@ -106,22 +106,22 @@ html {
     font-size: 130%;
   }
 
-  .card-img {
-    display: inline-block;
+  .card {
+    vertical-align: top;
+    margin: 0;
   }
 
-  .card-img img {
-    margin: 0;
+  .card-img {
+    display: inline-block;
   }
 
   .card-body {
     display: inline-block;
     width: 75%;
-    margin-left: 1rem;
   }
 
   .card-body p {
-    margin-bottom: 1.3rem;
+    margin: 0;
   }
 
 }
